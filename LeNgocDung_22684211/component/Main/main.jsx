@@ -55,7 +55,7 @@ var style ={
             </div>
             <div id='content'>
 
-                <div id='left'> <img src="../../image/image.png" alt="" /></div>
+                <div id='left'> <img src="../../image/pandas.png" alt="" /></div>
                 <div id='right'>
                     <div>
                         <p>Emma Gonzalez is a deputy editor at Chefity, bringing her expertise as a former cooking editor at The Los Angeles Times She is also an accomplished author, contributing to numerous cookbooks and food publications. Originally from East Los Angeles, Emma now resides in New York City, where she explores a wide range of culinary delights.</p>
