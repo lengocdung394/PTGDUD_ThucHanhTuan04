@@ -68,7 +68,8 @@ button {
 #recipe-list img {
     width: 200px;
     height: 130px;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 #recipe-list ul li {
@@ -88,6 +89,7 @@ button {
     margin: 0;
 }
 .recipe-grid{
+    background-color: white;
     border-radius: 10px;
     border: 2px solid #ccc3c6;
 }
