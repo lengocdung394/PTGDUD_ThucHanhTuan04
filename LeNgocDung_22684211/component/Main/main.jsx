@@ -27,11 +27,12 @@ export default function main() {
 
         // fetchRecipes();
         fetch('https://67c7c89ec19eb8753e7abb1c.mockapi.io/thuchanh04')
-        .then(res => res.json())
-        .then(data => {
-            console.log(data);
-            
-            setRecipes(data); })
+            .then(res => res.json())
+            .then(data => {
+                console.log(data);
+
+                setRecipes(data);
+            })
     }, []); // Empty dependency array ensures this runs only once on mount
 
     const handleSubscribe = () => {
@@ -68,14 +69,12 @@ export default function main() {
                 <div id='recipe-list'>
                     <ul>
                         {recipes.map(recipe => (
-                            <li className='recipe-grid'>
-                                {recipes.map(recipe => (
-                                     <div className='recipe-card' key={recipe.id.object}>
-                                        <img src={recipe.image} alt={recipe.title} />
-                                        <h4>{recipe.title}</h4>
-                                        <button>{recipe.minute} minutes</button>
-                                    </div>
-                                ))}
+                            <li className='recipe-grid' key={recipe.id.object}>
+                                <div className='recipe-card'>
+                                    <img src={recipe.image} alt={recipe.title} />
+                                    <h4>{recipe.title}</h4>
+                                    <button>{recipe.minute} minutes</button>
+                                </div>
                             </li>
                         ))}
                     </ul>
