@@ -1,0 +1,61 @@
+#content {
+    display: flex;
+    gap: 20px;
+}
+
+h2 {
+    width: 100%;
+    margin: 0px;
+}
+
+p {
+    text-align: justify;
+}
+
+#right {
+    gap: 10px;
+}
+
+button {
+    color: #FF4081;
+}
+
+#share {
+    background-color: #FF4081;
+    color: aliceblue;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#left img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+}
+
+#main {
+    gap: 20px;
+    margin-left: 130px;
+    width: 80%;
+
+}
+
+#menu-item ul {
+    display: flex;
+}
+
+#menu-item ul li {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+#recipe-list img {
+    width: 200px;
+    height: 250px;
+}
+
+#recipe-list ul li {
+    list-style-type: none;
+}
+
