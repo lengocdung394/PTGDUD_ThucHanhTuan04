@@ -39,13 +39,15 @@ export default function main() {
         setSubscribed(true);
         alert('Thank you for subscribing!');
     };
-
+var style ={
+    color :'#FF4081'
+}
     return (
         <div id='main'>
             <div id='menu-item'>
                 <ul>
                     <li>Home</li>
-                    <li>Your Recipe Box</li>
+                    <li style={style}>Your Recipe Box</li>
                 </ul>
             </div>
             <div>

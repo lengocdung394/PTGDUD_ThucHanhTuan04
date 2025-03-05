@@ -48,8 +48,8 @@ button {
     flex-direction: column;
     /* Sắp xếp theo chiều dọc */
     gap: 40px;
-    margin-left: 130px;
-    width: 80%;
+    margin-left: 50px;
+    width: 90%;
     margin-bottom: 50px;
 
 }
@@ -73,7 +73,7 @@ button {
 
 #recipe-list ul li {
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 10px;
 }
 
 #recipe-list ul {
@@ -93,16 +93,19 @@ button {
 }
 
 .recipe-grid button{
-    color: #FF4081;
+    
     background-color: rgb(246, 230, 237);
     padding: 2px;
     margin-left: 5px;
     margin-bottom: 10px;
 }
 
-
+#menu-food{
+   
+}
 #menu-food ul{
     display: flex;
+    border-bottom: 1px solid #ccc3c6;
     margin-bottom: 30px;
     margin-top: 30px;
     padding: 0;
@@ -112,11 +115,11 @@ button {
     padding: 10px;
     list-style-type: none;
     margin-right: 2px;
-    
-    color: #FF4081;
+
     border-radius: 4px;
 }
 
 #color{
+    color: #FF4081;
     background-color: #f7cedb;
 }
