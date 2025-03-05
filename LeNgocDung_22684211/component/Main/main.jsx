@@ -39,6 +39,7 @@ export default function main() {
         setSubscribed(true);
         alert('Thank you for subscribing!');
     };
+
     return (
         <div id='main'>
             <div id='menu-item'>
@@ -63,7 +64,15 @@ export default function main() {
                     </div>
                 </div>
             </div>
-            {loading && <div>Loading recipes...</div>}
+
+            <div id='menu-food'>
+                <ul>
+                    <li id='color'>Saved Recipes</li>
+                    <li>Folders</li>
+                    <li>Recipes by Genevieve</li>
+                </ul>
+            </div>
+            {loading}
             {error && <div className="error">Error: {error}</div>}
             {recipes.length > 0 && (
                 <div id='recipe-list'>
